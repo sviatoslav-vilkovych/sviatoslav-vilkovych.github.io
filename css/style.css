@@ -24,6 +24,7 @@ h1 {
 	color: rgba(0, 0, 0, 1);
 	background-color: white;
 	width: 25%;
+	min-width: 320px;
 	border: 2px solid white;
 	border-radius: 10px;
 	font-size: 30px;
@@ -33,7 +34,22 @@ h1 {
 }
 
 section {
-	width: 50%;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.story {
+	margin-bottom: 10px;
+	padding: 10px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	color: #ffffff;
+	box-sizing: border-box;
+}
+
+.translations, .games
+{
 	margin-bottom: 10px;
 	margin-left: auto;
 	margin-right: auto;
@@ -42,12 +58,9 @@ section {
 	border-radius: 5px;
 	color: #ffffff;
 	box-sizing: border-box;
-}
-
-.translations, .games {
-	box-sizing: border-box;
 	width: 49%;
 	display: inline-block;
+	padding: 10px;
 }
 
 .translations h4, .games h4 {
