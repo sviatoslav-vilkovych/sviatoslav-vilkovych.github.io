@@ -35,6 +35,7 @@ h1 {
 
 section {
 	width: 80%;
+	max-width: 1000px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -58,17 +59,11 @@ section {
 	border-radius: 5px;
 	color: #ffffff;
 	box-sizing: border-box;
-	width: 49%;
-	display: inline-block;
 	padding: 10px;
 }
 
-.translations h4, .games h4 {
+.translations h4, .games h4, .story h4 {
 	text-align: center;
-}
-
-.games {
-	float: right;
 }
 
 ul {
